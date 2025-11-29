@@ -1,0 +1,37 @@
+{
+  "name": "appointment-scheduler",
+  "version": "1.0.0",
+  "description": "A scalable application for scheduling appointments and managing client records.",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint .",
+    "migrate": "ts-node src/db/migrations",
+    "seed": "ts-node src/db/seeds"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "typeorm": "^0.2.34",
+    "reflect-metadata": "^0.1.13",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.4.11",
+    "twilio": "^3.64.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "ts-node": "^9.1.1",
+    "jest": "^26.6.3",
+    "eslint": "^7.11.0",
+    "prettier": "^2.2.1"
+  },
+  "keywords": [
+    "appointments",
+    "scheduling",
+    "client management"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
