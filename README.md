@@ -1,17 +1,17 @@
-# Appointment Scheduler
+# Programador de citas
 
-## Overview
-The Appointment Scheduler is a scalable application designed to manage client records and schedule appointments efficiently. It provides a user-friendly interface for clients and administrators to create, update, and manage appointments and client information.
+## Descripción General
+El Appointment Scheduler es una aplicación escalable diseñada para gestionar registros de clientes y agendar citas de manera eficiente. Proporciona una interfaz amigable para que los clientes y administradores creen, actualicen y gestionen citas e información de los clientes.
 
-## Features
-- **Appointment Management**: Create, retrieve, update, and delete appointments.
-- **Client Management**: Manage client records, including adding and updating client information.
-- **Notifications**: Send email and SMS notifications for appointment reminders.
-- **Authentication**: Secure access to the application with authentication middleware.
-- **Database Integration**: Seamless integration with a database for persistent storage of appointments and client records.
-- **Job Scheduling**: Schedule background jobs for sending reminders about upcoming appointments.
+## Características
+- **Gestión de Citas:** Crear, recuperar, actualizar y eliminar citas.
+- **Gestión de Clientes:** Gestionar registros de clientes, incluyendo agregar y actualizar información del cliente.
+- **Notificaciones:** Enviar notificaciones por correo electrónico y SMS para recordatorios de citas.
+- **Autenticación:** Acceso seguro a la aplicación con middleware de autenticación.
+- **Integración de Base de Datos:** Integración fluida con una base de datos para el almacenamiento persistente de citas y registros de clientes.
+- **Job Scheduling (Programación de Tareas):** Programar background jobs para enviar recordatorios sobre citas próximas.
 
-## Project Structure
+## Estructura del Proyecto
 ```
 appointment-scheduler
 ├── src
@@ -42,33 +42,27 @@ appointment-scheduler
 └── .gitignore
 ```
 
-## Installation
-1. Clone the repository:
+## Instalación
+1. Clonar el repositorio:
    ```
    git clone <repository-url>
    ```
-2. Navigate to the project directory:
+2. Navegar al directorio del proyecto:
    ```
    cd appointment-scheduler
    ```
-3. Install dependencies:
+3. Instalar dependencias:
    ```
    npm install
    ```
-4. Set up the database by running the setup script:
+4. Configurar la base de datos ejecutando el script de configuración:
    ```
    ./scripts/setup-db.sh
    ```
 
-## Usage
-- Start the server:
+## Uso
+- Iniciar el servidor:
   ```
   npm start
   ```
-- Access the API documentation for endpoints related to appointments and clients.
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
-
-## License
-This project is licensed under the MIT License.
+- Acceder a la documentación de la API para los endpoints relacionados con citas y clientes.
